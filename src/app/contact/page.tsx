@@ -10,7 +10,7 @@ const Contact = () => {
         <h1 className="text-4xl font-bold">Contact Us</h1>
         <p className="text-lg">We would love to hear from you!</p>
         <Meteors number={100} />
-        <Meteors number={100} />
+         <Meteors number={100} />
       </div>
      
     </div>
