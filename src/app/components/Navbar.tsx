@@ -18,16 +18,18 @@ function Navbar({className} : {className: string }
 
                 <MenuItem setActive={setActive} active={active} item="Our Courses">
                     <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/web-dev">Web Development</HoveredLink> {/* HoveredLink in-depth make use of Link  */}
+                    <HoveredLink href="/courses">Courses</HoveredLink>
+                    <HoveredLink href="/web-dev">Web Development</HoveredLink> 
                     <HoveredLink href="/interface-design">Interface Design</HoveredLink>
                     <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
                     <HoveredLink href="/branding">Branding</HoveredLink>
                     </div>
                 </MenuItem>
 
-                <MenuItem setActive={setActive} active={active} item="Constact Us">
+                <MenuItem setActive={setActive} active={active} item="Contact Us">
                     <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/web-dev">Web Development</HoveredLink> {/* HoveredLink in-depth make use of Link  */}
+                    <HoveredLink href="/contact">Contact Us</HoveredLink>
+                    <HoveredLink href="/web-dev">Web Development</HoveredLink> 
                     <HoveredLink href="/interface-design">Interface Design</HoveredLink>
                     <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
                     <HoveredLink href="/branding">Branding</HoveredLink>
